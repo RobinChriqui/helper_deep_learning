@@ -16,6 +16,8 @@ def plot_loss_curves(history):
 
   Returns of training/validation loss and accuracy metrics
   """
+    
+  import matplotlib.pyplot as plt
   loss=history.history["loss"]
   val_loss=history.history["val_loss"]
 
