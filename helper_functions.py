@@ -86,6 +86,7 @@ def create_model(model_url, num_classes=10):
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import random
+import os
 
 def view_random_image(target_dir, target_class):
   # Setup target directory (we'll view images from here)
